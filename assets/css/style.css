@@ -1,0 +1,323 @@
+/*Setting defaults*/
+html, body{
+    font-family: 'Roboto', sans-serif;
+    background: #1e1e1e;
+    width: 100vw;
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior: smooth;
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/*Landing Page CSS*/
+#MainContainer{
+    background: #1e1e1e;
+    text-align: center;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+}
+#MainContainer div{
+    color: white;
+    text-transform: uppercase;
+    display: block;
+}
+.firstText{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    background: #1e1e1e;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+.secondText{
+    font-size: 25px;
+    color: #6ab04c;
+}
+@keyframes text {
+    0%{
+        color: #1e1e1e;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 1px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 3px;
+        margin-bottom: -40px;
+    }
+
+}
+/*Read More Button*/
+#ReadMore{
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: #00838F 1px solid;
+    border-radius: 10px;
+    top: 85vh;
+}
+#ReadMore:hover{
+    background: #0097A7;
+    color: white;
+}
+/*Particles CSS*/
+#particles-js
+{
+    height: 100vh;
+    width: 100vw;
+    background: #1e1e1e;
+    background-size: cover ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+/*Page Content*/
+#content h2{
+    padding: 15px;
+    font-size: 40px;
+}
+#content p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px;
+}
+#about{
+    width: 100%;
+    height: 100%;
+    background: #009688;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: auto;
+}
+#skills{
+    width: 100%;
+    height: 100%;
+    background-size: cover ;
+    align-items: center;
+    background: linear-gradient(to right, #136a8a , #267871);
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: auto;
+}
+#skills h4{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+}
+#javaprogress{
+    width: 99%;
+}
+#cprogress{
+    width: 94%;
+}
+#c\+\+progress{
+    width: 97%;
+}
+#androidprogress{
+    width: 65%;
+}
+#hibernateprogress{
+    width: 95%;
+}
+#springprogress{
+    width: 95%;
+}
+#htmlcssprogress{
+    width: 75%;
+}
+#jsprogress{
+    width: 30%;
+}
+#jqueryprogress{
+    width: 65%;
+}
+#bsprogress{
+    width: 85%;
+}
+#svnprogress{
+    width: 95%;
+}
+#oracleprogress{
+    width: 55%;
+}
+#gdprogress{
+    width: 70%;
+}
+#fbprogress{
+    width: 70%;
+}
+#mysqlprogress{
+    width: 88%;
+}
+#sqliteprogress{
+    width: 84%;
+}
+#gitprogress{
+    width: 100%;
+}
+#mlprogress{
+    width: 20%;
+}
+#projects{
+    width: 100%;
+    height: 100%;
+    background-size: cover ;
+    align-items: center;
+    background: #333333;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: auto;
+}
+#experience{
+    width: 100%;
+    height: 100%;
+    background-size: cover ;
+    align-items: center;
+    background: #4A148C;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+#id-its{
+    width: 60px;
+    height: 60px;
+}
+#id-intellect{
+    width: 60px;
+    height: 60px;
+}
+#experience hr{
+    background-color: white;
+    display: block;
+}
+#experience .container h4{
+    margin-top: 10px;
+}
+#experience .container label{
+    font-size: 20px;
+}
+#id-dateida, #id-dateits{
+    color: #9E9E9E;
+}
+#itsbutton:hover{
+    color: #D1C4E9;
+}
+#idabutton:hover{
+    color: #D1C4E9;
+}
+#certifications{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    align-items: center;
+    background: linear-gradient(to right, #11998e , #38ef7d);;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: auto;
+}
+#id-cer{
+    text-align: left;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.cerlabel{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+.license{
+    border: #ffffff 1px solid;
+    border-radius: 8px;
+    padding: 8px 8px;
+}
+.buttonoverride{
+    border-radius: 10px;
+}
+#id-cer hr{
+    border-color: white;
+    display: block;
+}
+#contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover ;
+    align-items: center;
+    background: #c0392b;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: auto;
+}
+/*Footer*/
+.footer{
+    height: 100%;
+    padding: 10px;
+    background: #0e0e0e;
+}
+/*Social Icons in footer*/
+#social-icons ul{
+    position: relative;
+    text-align: center;
+}
+#social-icons ul li{
+    list-style: none;
+    display: inline-block;
+}
+#social-icons ul li a{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    margin: 10px;
+    color: white;
+}
+.fa-github:hover{
+    opacity: 0.7;
+}
+.fa-facebook-f:hover{
+    opacity: 0.7;
+}
+.fa-linkedin-in:hover{
+    opacity: 0.7;
+}
+.fa-instagram:hover{
+    opacity: 0.7;
+}
+.fa-file {
+    padding-right: 2px;
+}

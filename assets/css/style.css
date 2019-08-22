@@ -24,53 +24,9 @@ a:focus {
     transition: all 0.3s;
 }
 
-
-#loader-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-}
-#loader {
-    display: block;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #3498db;
-
-    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-
-    z-index: 1001;
-}
-
-    #loader:before {
-        content: "";
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        right: 5px;
-        bottom: 5px;
-        border-radius: 50%;
-        border: 3px solid transparent;
-        border-top-color: #e74c3c;
-
-        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-    }
-
-  
-
 /*Landing Page CSS*/
 #MainContainer{
-    background: #1e1e1e;
+    background: white;
     text-align: center;
     position: absolute;
     top: 50vh;
@@ -78,27 +34,27 @@ a:focus {
     transform: translate(-50%,-50%);
 }
 #MainContainer div{
-    color: white;
+    color: black;
     text-transform: uppercase;
     display: block;
 }
 .firstText{
-    color: white;
+    color: black;
     font-family: 'Poppins',sans-serif;
     font-size: 45px;
     font-weight: 500;
-    background: #1e1e1e;
+    background: white;
     margin-bottom: 20px;
     position: relative;
     animation: text 3s 1;
 }
 .secondText{
     font-size: 25px;
-    color: #6ab04c;
+    color: black;
 }
 @keyframes text {
     0%{
-        color: #1e1e1e;
+        color: black;
         margin-bottom: -40px;
     }
     30%{
@@ -118,7 +74,7 @@ a:focus {
     position: relative;
     font-size: 18px;
     text-decoration: none;
-    color: white;
+    color: #00838F;
     padding: 10px 20px;
     border: #00838F 1px solid;
     border-radius: 10px;
@@ -133,7 +89,7 @@ a:focus {
 {
     height: 100vh;
     width: 100vw;
-    background: #1e1e1e;
+    background: white;
     background-size: cover ;
     align-items: center;
     display: flex;
@@ -155,7 +111,7 @@ a:focus {
 #about{
     width: 100%;
     height: 100%;
-    background: #009688;
+    background: #f0a30a;
     background-size: cover;
     color: white;
     text-align: center;
@@ -167,7 +123,7 @@ a:focus {
     height: 100%;
     background-size: cover ;
     align-items: center;
-    background: linear-gradient(to right, #136a8a , #267871);
+    background: #008080;
     color: white;
     text-align: center;
     word-wrap: break-word;
@@ -247,7 +203,7 @@ a:focus {
     height: 100%;
     background-size: cover ;
     align-items: center;
-    background: #4A148C;
+    background: #4527A0;
     color: white;
     text-align: center;
     word-wrap: break-word;
@@ -285,7 +241,7 @@ a:focus {
     height: 100%;
     background-size: cover;
     align-items: center;
-    background: linear-gradient(to right, #11998e , #38ef7d);;
+    background: white;
     color: white;
     text-align: center;
     word-wrap: break-word;
@@ -312,9 +268,15 @@ a:focus {
 }
 .buttonoverride{
     border-radius: 10px;
+    background: #795548;
+    color: white;
+}
+.buttonoverride:hover{
+    color: white;
+    background:#5D4037 ;
 }
 #id-cer hr{
-    border-color: white;
+    border-color: black;
     display: block;
 }
 #contact{

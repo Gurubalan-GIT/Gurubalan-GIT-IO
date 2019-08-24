@@ -123,8 +123,8 @@ a:focus {
     height: 100%;
     background-size: cover ;
     align-items: center;
-    background: #008080;
-    color: white;
+    background: white;
+    color: black;
     text-align: center;
     word-wrap: break-word;
     overflow: auto;
@@ -132,60 +132,6 @@ a:focus {
 #skills h4{
     font-family: 'Roboto', sans-serif;
     padding-top: 15px;
-}
-#javaprogress{
-    width: 99%;
-}
-#cprogress{
-    width: 94%;
-}
-#c\+\+progress{
-    width: 97%;
-}
-#androidprogress{
-    width: 65%;
-}
-#hibernateprogress{
-    width: 95%;
-}
-#springprogress{
-    width: 95%;
-}
-#htmlcssprogress{
-    width: 75%;
-}
-#jsprogress{
-    width: 30%;
-}
-#jqueryprogress{
-    width: 65%;
-}
-#bsprogress{
-    width: 85%;
-}
-#svnprogress{
-    width: 95%;
-}
-#oracleprogress{
-    width: 55%;
-}
-#gdprogress{
-    width: 70%;
-}
-#fbprogress{
-    width: 70%;
-}
-#mysqlprogress{
-    width: 88%;
-}
-#sqliteprogress{
-    width: 84%;
-}
-#gitprogress{
-    width: 100%;
-}
-#mlprogress{
-    width: 20%;
 }
 #projects{
     width: 100%;
@@ -241,7 +187,7 @@ a:focus {
     height: 100%;
     background-size: cover;
     align-items: center;
-    background: white;
+    background: grey;
     color: white;
     text-align: center;
     word-wrap: break-word;
@@ -292,6 +238,13 @@ a:focus {
     word-wrap: break-word;
     overflow: auto;
 }
+
+.underText{
+    background: #0e0e0e;
+    height: 2px;
+    width: 40%;
+    border-radius: 10px;
+}
 /*Footer*/
 .footer{
     height: 100%;
@@ -329,4 +282,102 @@ a:focus {
 }
 .fa-file {
     padding-right: 2px;
+}
+
+.fa-java{
+    font-size: 90px;
+    opacity: 0.7;
+    padding: 5px;
+}
+.fa-java{
+    color: #E91E63;
+}
+
+.fa-js-square{
+    font-size: 70px;
+    opacity: 0.7;
+    padding: 5px;
+}
+.fa-js-square{
+    color: #FFA000;
+}
+
+.fa-css3-alt{
+    font-size: 70px;
+    opacity: 0.7;
+    padding: 5px;
+}
+.fa-css3-alt{
+    color: #1a237e;
+}
+
+.fa-html5{
+    font-size: 70px;
+    opacity: 0.7;
+    padding: 5px;
+}
+.fa-html5{
+    color: #E53935;
+}
+
+.icon-spring{
+    font-size: 60px;
+    opacity: 0.7;
+    padding: 5px;
+}
+.icon-spring{
+    color: #43A047;
+}
+
+.icon{
+    font-size: 60px;
+    opacity: 0.7;
+    padding: 4px;
+}
+
+.icon-git{
+    color:#ff5722;
+}
+.icon-apache{
+    color: #b71c1c
+}
+.icon-tomcat{
+    color: #ff8f00;
+}
+.icon-mongodb{
+    color: #388e3c;
+}
+.icon-mysql-alt{
+    color: #0097a7;
+}
+.icon-oracle{
+    color: #f44336;
+}
+.icon-bootstrap {
+    color: #4a148c;
+}
+.icon-cplusplus{
+    padding: 0px;
+    color: #1565c0;
+}
+.icon-c{
+    color: #0d47a1;
+}
+.fa-android{
+    padding: 0px;
+    font-size: 70px;
+    color: #43a047;
+}
+.icon-php-alt{
+    padding: 0px;
+    color: #651fff;
+}
+.fa-bitcoin{
+    color: #ffa000;
+}
+.icon-nodejs{
+    color: #7cb342;
+}
+.icon-jquery{
+    color: #01579b;
 }

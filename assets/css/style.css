@@ -187,14 +187,16 @@ a:focus {
     height: 100%;
     background-size: cover;
     align-items: center;
-    background: grey;
+    background: #0277BD; 
     color: white;
     text-align: center;
     word-wrap: break-word;
     overflow: auto;
 }
-#id-cer{
-    text-align: left;
+
+
+#id-cer h5, label, p{
+    color: white;
 }
 
 .logo{
@@ -202,9 +204,9 @@ a:focus {
     height: 60px;
 }
 .cerlabel{
-    color: black;
+    color: white;
     font-size: 25px;
-    font-weight: bolder;
+    font-weight: lighter;
     font-family: 'Roboto', sans-serif;
 }
 .license{
@@ -381,3 +383,4 @@ a:focus {
 .icon-jquery{
     color: #01579b;
 }
+

@@ -187,7 +187,7 @@ a:focus {
     height: 100%;
     background-size: cover;
     align-items: center;
-    background: #0277BD; 
+    background: #009688; 
     color: white;
     text-align: center;
     word-wrap: break-word;
@@ -216,16 +216,36 @@ a:focus {
 }
 .buttonoverride{
     border-radius: 10px;
-    background: #795548;
+    background: #D81B60;
     color: white;
 }
 .buttonoverride:hover{
     color: white;
-    background:#5D4037 ;
+    background: #D81B60;
 }
+
+.buttonoverrideCarousel{
+    border-radius: 10px;
+    background: #ff0256;
+    color: white;
+}
+.buttonoverrideCarousel:hover{
+    color: #ff0256;
+    background:white;
+}
+
 #id-cer hr{
     border-color: black;
     display: block;
+}
+.cerhr{
+    background:white;
+    width: 25%;
+    padding: 1px;
+    border-radius: 10px;
+}
+.cerow{
+    padding-top: 10px;
 }
 #contact{
     width: 100%;

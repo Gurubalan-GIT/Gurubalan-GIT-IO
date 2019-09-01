@@ -30,9 +30,12 @@
         gtag('config', 'UA-130484648-1');
     </script>
 
+    <script>    
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
   
-   
-
     <!-- Importing Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Roboto" rel="stylesheet">
     <!-- Font Awesome CSS -->
@@ -404,8 +407,49 @@
          </div>
         <div>
             <div id="projects">
-                <h2>Projects</h2>
+                <h2>Core Projects</h2>
+
                 <!-- All the cards -->
+
+                <div class="row container-fluid" style="padding-bottom: 20px">
+                    <div class="col-sm-3"></div>
+                    <div class="card text-center col-sm-6 bg-dark">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link text-info">June 2019</a>
+                            </ul>
+                            <h6>CCC</h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text" style="font-size: 18px" >A community driven project to help people code around the globe.</p>
+                            <a href="https://github.com/Gurubalan-GIT/MyGoogleMap-Graph" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal11">Read more</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+                
+                <div class="row container-fluid" style="padding-bottom: 20px">
+                    <div class="col-sm-3"></div>
+                    <div class="card text-center col-sm-6 bg-dark">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link text-info">December 2018</a>
+                            </ul>
+                            <h6>Text Editor</h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text" style="font-size: 18px" >A Text editor made with JavaFX, with intellisense, Flesch index readability score, Markov text generator and many other features.</p>
+                            <a href="https://github.com/Gurubalan-GIT/MyGoogleMap-Graph" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal01">Read more</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+
+
                 <div class="row container-fluid" style="padding-bottom: 20px;">
                     <div class="col-sm-3"></div>
                     <div class="card text-center col-sm-6 bg-dark">
@@ -444,24 +488,7 @@
                     <div class="col-sm-3"></div>
                 </div>
 
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">August 2018</a>
-                            </ul>
-                            <h6>SRM Transactions</h6>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px" >This is a secure bank management web application, server side done with Java, Servlets and MySQL.</p>
-                            <a href="https://github.com/Gurubalan-GIT/SRMTransactions" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal3">Read more</button>
-                        </div>
-                    </div>
-                    <div class="col-sm-3"></div>
-                </div>
+                
 
                 <div class="row container-fluid" style="padding-bottom: 20px">
                     <div class="col-sm-3"></div>
@@ -496,25 +523,6 @@
                             <p class="card-text" style="font-size: 18px">A machine learning driven android application using MLkit models to detect text from an image.</p>
                             <a href="https://github.com/Gurubalan-GIT/MLTextRecognition" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
                             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal5">Read more</button>
-                        </div>
-                    </div>
-                    <div class="col-sm-3"></div>
-                </div>
-
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">June 2018</a>
-                            </ul>
-                            <h6>Registration Portal</h6>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px">A web application for registration, server side done with Java and Hibernate ORM (HQL).</p>
-                            <a href="https://github.com/Gurubalan-GIT/HibernateORM" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal6">Read more</button>
                         </div>
                     </div>
                     <div class="col-sm-3"></div>
@@ -598,6 +606,48 @@
                 </div>
 
                 <!-- All the modals -->
+
+                <div class="modal fade text-dark" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal1CenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modal11LongTitle">CCC</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                A community-driven approach for learning competitive coding and helping people learn as well. Hosted on Github, 
+                                with over 200+ collaborators, breaking down the placement fear brick by brick!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade text-dark" id="modal01" tabindex="-1" role="dialog" aria-labelledby="modal1CenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modal01LongTitle">Text editor</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                A Text editor made with JavaFX, includes Flesch index readability score, Word path distance between two words, Autocomplete, Markov text generator, importing .txt files from your system and many other features. 
+                                This is done implementing HashSets, LinkedLists and other classes/interfaces of collections and generics.
+                             </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="modal fade text-dark" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1CenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
@@ -819,6 +869,7 @@
             <div id="contact">
                 <h2>Contact Me</h2>
                 <p>Want to collaborate on some projects? Hit me up!</p>
+                <a href="mailto:gurubalan.work@gmail.com?Subject=" target="_top" data-toggle="tooltip" data-placement="top" title="Mail me"><i class="fas fa-paper-plane"></i></a>
                 
             </div>
         </div>

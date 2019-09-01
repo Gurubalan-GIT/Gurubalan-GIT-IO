@@ -403,4 +403,13 @@ a:focus {
 .icon-jquery{
     color: #01579b;
 }
+.fa-paper-plane{
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: #64ffda;
+}
+.fa-paper-plane:hover{
+    font-size: 72px;
+    color: white;
+}
 

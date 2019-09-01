@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -15,27 +16,30 @@
     <meta name="theme-color" content="#ffffff">
     <title>Gurubalan Harikrishnan</title>
     <meta content="Gurubalan Harikrishnan" property="og:title">
-    <meta content="Gurubalan Harikrishnan" property="og:site_name"/>
-    <meta content="Software developer, with detailed experience in enterprise production of scalable applications." property="og:description"/>
-    <meta content="en_US" property="og:locale"/>
-    <meta content="Guru, software, Gurubalan, web, development, Android, Application, Git, Material, design, pwa, gurubal, harikrishnan, gurubalan harikrishnan" name="keywords"/>
-    <meta content="website" property="og:type"/>
+    <meta content="Gurubalan Harikrishnan" property="og:site_name" />
+    <meta content="Software developer, with detailed experience in enterprise production of scalable applications." property="og:description" />
+    <meta content="en_US" property="og:locale" />
+    <meta content="Guru, software, Gurubalan, web, development, Android, Application, Git, Material, design, pwa, gurubal, harikrishnan, gurubalan harikrishnan" name="keywords" />
+    <meta content="website" property="og:type" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130484648-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-130484648-1');
     </script>
-
-    <script>    
-        $(function () {
+    <!--Bootstrap tooltip toggle-->
+    <script>
+        $(function() {
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
-  
+
     <!-- Importing Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Roboto" rel="stylesheet">
     <!-- Font Awesome CSS -->
@@ -49,254 +53,255 @@
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 </head>
+
 <body>
 
-<div class="main-wrapper">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" style="background: #3b5999;">
-        <div class="container">
-            <!-- Collapse -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+
+    <div class="main-wrapper">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" style="background: #3b5999;">
+            <div class="container">
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Left -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#certifications">Certifications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <!-- Right -->
-                <ul class="navbar-nav nav-flex-icons">
-                    <li class="nav-item">
-                        <a href="https://drive.google.com/open?id=1OhvGHRCADL3e1oeOtBnDsMxUXwolp1I8" class="nav-link border border-light rounded waves-effect waves-light"
-                           target="_blank">
-                            <i class="fa fa-file"></i>    My Resume</a>
-                    </li>
-                </ul>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certifications">Certifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Right -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a href="https://drive.google.com/open?id=1OhvGHRCADL3e1oeOtBnDsMxUXwolp1I8" class="nav-link border border-light rounded waves-effect waves-light" target="_blank">
+                                <i class="fa fa-file"></i> My Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Particles.js Integration -->
+        <div id="particles-js">
+            <div id="MainContainer">
+                <div class="firstText">Gurubalan Harikrishnan</div>
+                <div class="secondText">Software developer</div>
+            </div>
+            <div>
+                <a id="ReadMore" class="button" href="#about">Read More</a>
             </div>
         </div>
-    </nav>
-    <!-- Particles.js Integration -->
-    <div id="particles-js">
-        <div id="MainContainer">
-            <div class="firstText">Gurubalan Harikrishnan</div>
-            <div class="secondText">Software developer</div>
-        </div>
-        <div>
-            <a id="ReadMore" class="button" href="#about">Read More</a>
-        </div>
-    </div>
-    <!-- Particles JS -->
-    <script type="text/javascript" src="assets/js/particles.js"></script>
-    <!-- Particles Configuration -->
-    <script type="text/javascript" src="assets/js/app.js"></script>
-    <!-- Page Content  -->
-    <div id="content">
-        <div>
-            
+        <!-- Particles JS -->
+        <script type="text/javascript" src="assets/js/particles.js"></script>
+        <!-- Particles Configuration -->
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <!-- Page Content  -->
+        <div id="content">
+
+            <div>
                 <div id="about">
                     <h2>About Me</h2>
-                    <p>I'm Gurubalan Harikrishnan, a CSE undergraduate studying in SRM Institute of science and Technology.<br>
-                        I specialize in developing scalable, minimal, dynamic and user-friendly UX & UI Web, Software and Android applications<br>
-                        with complete, optimized backend integration.<br>
-                    <p>
-                    <p>
-                        My other escapes in life apart from coding is art.
-                    </p>
-                    <!-- Collapse button for carousel -->
-                    <p>
-                    <button class="btn buttonoverrideCarousel" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse-carousel" 
-                    style="input[type="button"]{outline:none;}">
-                        my best works </button>
-                    </p>
-                    <!-- Bootstrap Carousel -->
-                    <div class="collapse container" id="collapse" style="padding-bottom: 15px">
-                        <div class="card card-body bg-dark">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="assets/images/Drawings/1.jpg" alt="First slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/Drawings/23.jpg" alt="Second slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/Drawings/24.jpg" alt="Third slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/Drawings/27.jpg" alt="Third slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/Drawings/26.jpg" alt="Third slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/Drawings/25.jpg" alt="Third slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/Drawings/4.jpg" alt="Third slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/Drawings/3.jpg" alt="Third slide">
+                    <p>I'm Gurubalan Harikrishnan, a CSE undergraduate studying in SRM Institute of science and Technology.<br> I specialize in developing scalable, minimal, dynamic and user-friendly UX & UI Web, Software and Android applications<br> with
+                        complete, optimized backend integration.<br>
+                        <p>
+                            <p>
+                                My other escapes in life apart from coding is art.
+                            </p>
+                            <!-- Collapse button for carousel -->
+                            <p>
+                                <button class="btn buttonoverrideCarousel" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse-carousel" style="input[type=" button "]{outline:none;}">
+                    my best works </button>
+                            </p>
+                            <!-- Bootstrap Carousel -->
+                            <div class="collapse container" id="collapse" style="padding-bottom: 15px">
+                                <div class="card card-body bg-dark">
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="assets/images/Drawings/1.jpg" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/images/Drawings/23.jpg" alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/images/Drawings/24.jpg" alt="Third slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/images/Drawings/27.jpg" alt="Third slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/images/Drawings/26.jpg" alt="Third slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/images/Drawings/25.jpg" alt="Third slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/images/Drawings/4.jpg" alt="Third slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/images/Drawings/3.jpg" alt="Third slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
+                            </div>
+                </div>
+            </div>
+
+            <div>
+                <div id="experience">
+                    <h2>Experience</h2>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
+                                <img src="assets/images/ITS.png" class="rounded" alt="Interland Technology Services Pvt. Ltd." id="id-its">
+                                <h4><a class="button" id="itsbutton" href="http://www.interlandtech.com" target="_blank">Interland Technology Services Pvt. Ltd.</a></h4>
+                                <label id="id-dateits"><i>June 1st, 2018 - June 30th 2018</i></label><br>
+                                <label>Trainee</label>
+                                <p>Industrial training/Internship on core Java, Database optimization, JSP, Hibernate ORM, Apache Maven, Spring framework, Tomcat server (Apache Tomcat), JQuery, JSON and Ajax. </p>
+                                <hr>
+                                <img src="assets/images/Intellect-Design-Arena-Logo.png" class="rounded" alt="Intellect Design Arena Ltd." id="id-intellect">
+                                <h4><a class="button" id="idabutton" href="https://www.intellectdesign.com" target="_blank">Intellect Design Arena Ltd.</a></h4>
+                                <label id="id-dateida"><i>December 13th, 2017 - December 29th 2017</i></label><br>
+                                <label>Intern</label>
+                                <p>Learnt about the iGTB project, Liquidity management, Keys and working of banking software developed for Bank of Abu Dhabi, got firm industrial exposure.</p>
+                            </div>
+                            <div class="col-lg-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div id="skills">
+                    <h2>Technical Skills</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class=col-lg-4>
+                            </div>
+                            <div class=col-lg-4>
+                                <h4>Advanced</h4>
+                            </div>
+                            <div class=col-lg-4>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class=col-lg-5>
+                            </div>
+                            <div class=col-lg-2>
+                                <hr class="underText">
+                            </div>
+                            <div class=col-lg-5>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class=col-lg-2>
+                            </div>
+                            <div class=col-lg-8>
+                                <i class="fab fa-java" title="Java"></i>&nbsp
+                                <i class="fab fa-js-square"></i>&nbsp
+                                <i class="fab fa-css3-alt"></i>&nbsp
+                                <i class="fab fa-html5"></i>&nbsp
+                                <i class="icon-git icon"></i>&nbsp
+                                <i class="icon-spring icon"></i>
+                                <i class="icon-tomcat icon"></i>
+                                <i class="icon-apache icon"></i>
+                                <i class="icon-mongodb icon"></i>
+                                <i class="icon-mysql-alt icon"></i>
+                                <i class="icon-oracle icon"></i>
+                                <i class="icon-bootstrap icon"></i>&nbsp
+                                <i class="icon-c icon"></i>
+                                <i class="icon-cplusplus icon"></i>
+                            </div>
+                            <div class=col-lg-2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class=col-lg-4>
+                            </div>
+                            <div class=col-lg-4>
+                                <h4>Intermediate</h4>
+                            </div>
+                            <div class=col-lg-4>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class=col-lg-5>
+                            </div>
+                            <div class=col-lg-2>
+                                <hr class="underText">
+                            </div>
+                            <div class=col-lg-5>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class=col-lg-2>
+                            </div>
+                            <div class=col-lg-8>
+                                <i class="icon-jquery icon"></i>&nbsp
+                                <i class="icon-nodejs icon"></i>
+                                <i class="icon-php-alt icon"></i>
+                                <i class="fab fa-android icon"></i>
+                                <i class="fab fa-bitcoin icon"></i>
+                                <i class="icon-sass icon"></i>
+                            </div>
+                            <div class=col-lg-2>
                             </div>
                         </div>
                     </div>
-                </div>
-         
-        </div>
-        <div>
-            <div id="experience">
-                <h2>Experience</h2>
-                <br>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-10">
-                            <img src="assets/images/ITS.png" class="rounded" alt="Interland Technology Services Pvt. Ltd." id="id-its">
-                            <h4><a class="button" id="itsbutton" href="http://www.interlandtech.com" target="_blank">Interland Technology Services Pvt. Ltd.</a></h4>
-                            <label id="id-dateits"><i>June 1st, 2018 - June 30th 2018</i></label><br>
-                            <label>Trainee</label>
-                            <p>Industrial training/Internship on core Java, Database optimization, JSP, Hibernate ORM, Apache Maven, Spring framework, Tomcat server (Apache Tomcat), JQuery, JSON and Ajax. </p>
-                            <hr>
-                            <img src="assets/images/Intellect-Design-Arena-Logo.png" class="rounded" alt="Intellect Design Arena Ltd." id="id-intellect">
-                            <h4><a class="button" id="idabutton" href="https://www.intellectdesign.com" target="_blank">Intellect Design Arena Ltd.</a></h4>
-                            <label id="id-dateida"><i>December 13th, 2017 - December 29th 2017</i></label><br>
-                            <label>Intern</label>
-                            <p>Learnt about the iGTB project, Liquidity management, Keys and working of banking software developed for Bank of Abu Dhabi, got firm industrial exposure.</p>
-                        </div>
-                        <div class="col-lg-1"></div>
-                    </div>
+                    <br>
                 </div>
             </div>
-        </div>
-        <div>
-            <div id="skills">
-                <h2>Technical Skills</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class=col-lg-4>
-                        </div>
-                        <div class=col-lg-4>
-                        <h4>Advanced</h4>
-                        </div>
-                        <div class=col-lg-4>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class=col-lg-5>
-                        </div>
-                        <div class=col-lg-2>
-                        <hr class="underText">
-                        </div>
-                        <div class=col-lg-5>
-                    </div>
-
-                    </div>
-                    <div class="row">
-                        <div class=col-lg-2>
-                        </div>
-                        <div class=col-lg-8>
-                        <i class="fab fa-java" title="Java"></i>&nbsp
-                        <i class="fab fa-js-square"></i>&nbsp
-                        <i class="fab fa-css3-alt"></i>&nbsp
-                        <i class="fab fa-html5"></i>&nbsp
-                        <i class="icon-git icon"></i>&nbsp
-                        <i class="icon-spring icon"></i>
-                        <i class="icon-tomcat icon"></i>
-                        <i class="icon-apache icon"></i>
-                        <i class="icon-mongodb icon"></i>
-                        <i class="icon-mysql-alt icon"></i>
-                        <i class="icon-oracle icon"></i>
-                        <i class="icon-bootstrap icon"></i>&nbsp
-                        <i class="icon-c icon"></i>
-                        <i class="icon-cplusplus icon"></i>
-                        </div>
-                        <div class=col-lg-2>
-                        </div>
-                    </div>
-
-                     <div class="row">
-                        <div class=col-lg-4>
-                        </div>
-                        <div class=col-lg-4>
-                        <h4>Intermediate</h4>
-                        </div>
-                        <div class=col-lg-4>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class=col-lg-5>
-                        </div>
-                        <div class=col-lg-2>
-                        <hr class="underText">
-                        </div>
-                        <div class=col-lg-5>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class=col-lg-2>
-                        </div>
-                        <div class=col-lg-8>
-                        <i class="icon-jquery icon"></i>&nbsp
-                        <i class="icon-nodejs icon"></i>
-                        <i class="icon-php-alt icon"></i>
-                        <i class="fab fa-android icon"></i>
-                        <i class="fab fa-bitcoin icon"></i>
-                        <i class="icon-sass icon"></i>
-                        </div>
-                        <div class=col-lg-2>
-                        </div>
-                    </div>
-                </div>
-                <br>
-            </div>
-        </div>
-        <div>
-            <div id="certifications">
-                <h2>Certificates</h2>
+            <div>
+                <div id="certifications">
+                    <h2>Certificates</h2>
                     <div class="container">
                         <div class="row cerow">
 
@@ -308,19 +313,19 @@
                             </div>
 
                             <div class="col-lg-4" id="id-cer" style="text-align: left">
-                                 <label class="cerlabel"><img src="assets/images/Coursera-logo.png" class="rounded logo"> Coursera</label>
+                                <label class="cerlabel"><img src="assets/images/Coursera-logo.png" class="rounded logo"> Coursera</label>
                                 <h5>Building Web Applications in PHP<span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">February 2019</label></span></h5>
-                                <label class="license">License 8L3HX5QCA6YM</label><a href="https://www.coursera.org/account/accomplishments/verify/8L3HX5QCA6YM" target="_blank" class="btn buttonoverride">View Certificate</a>
+                                <label class="license">License 8L3HX5QCA6YM</label><a href="https://www.coursera.org/account/accomplishments/certificate/8L3HX5QCA6YM" target="_blank" class="btn buttonoverride">View Certificate</a>
                             </div>
-                        
+
                             <div class="col-lg-4" id="id-cer" style="text-align: left">
                                 <label class="cerlabel"><img src="assets/images/techdefence_logo.jpg" class="rounded logo"> Techdefence Pvt. Ltd</label>
                                 <h5>CEHE <span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">October 2018</label></span></h5>
                                 <a href="https://drive.google.com/open?id=18nUw2Pa2zcm3DMLJ_ZYoZmR6loHaVBia" target="_blank" class="btn buttonoverride">View Certificate</a>
-                            </div>   
+                            </div>
 
                         </div>
-                        
+
                         <hr class="cerhr">
 
                         <div class="row cerow">
@@ -333,66 +338,39 @@
                             </div>
 
                             <div class="col-lg-4" id="id-cer" style="text-align: left">
-                                 <label class="cerlabel"><img src="assets/images/udemy-logo.jpg" class="rounded logo"> Udemy</label>
-                                <h5>Responsive Web Development in HTML, CSS & Javascript <span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">May 2018</label></span></h5>
-                                <label class="license">License UC-V05Z54J6</label>
-                                <a href="https://www.udemy.com/certificate/UC-V05Z54J6/" target="_blank" class="btn buttonoverride">View Certificate</a>
-                            </div>
-
-                        
-                            <div class="col-lg-4" id="id-cer" style="text-align: left">
                                 <label class="cerlabel"><img src="assets/images/NPTEL-logo.jpg" class="rounded logo"> NPTEL</label>
                                 <h5>Introduction to Modern Application Development <span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">April 2018</label></span></h5>
                                 <label class="license">License NPTEL18CS03S1270630</label><br>
                                 <a href="https://drive.google.com/open?id=1qGdudgHFeJqyUfB1K7daHo2AjxOwVitQ" target="_blank" class="btn buttonoverride">View Certificate</a>
-                            </div>  
-
-                        </div>
-
-                        <hr class="cerhr">
-
-                        <div class="row cerow">
+                            </div>
 
                             <div class="col-lg-4" id="id-cer" style="text-align: left">
-                               <label class="cerlabel"><img src="assets/images/microsoft-logo.png" class="rounded logo"> Microsoft</label>
+                                <label class="cerlabel"><img src="assets/images/microsoft-logo.png" class="rounded logo"> Microsoft</label>
                                 <h5>MTA: Mobility and Device Fundamentals <span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">April 2018</label></span></h5>
                                 <label class="license">License 90072497</label><br>
                                 <a href="https://drive.google.com/open?id=1-Z7z-fDTkhNtN_tC0nyxR7xlNwZk6SbK" target="_blank" class="btn buttonoverride">View Certificate</a>
                             </div>
 
-                            <div class="col-lg-4" id="id-cer" style="text-align: left">
-                                <label class="cerlabel"><img src="assets/images/microsoft-logo.png" class="rounded logo"> Microsoft</label>
-                                <h5>SQL Database Fundamentals <span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">March 2018</label></span></h5>
-                                <a href="https://drive.google.com/open?id=1A_5xBkQfiHRTpd_SMf6oasrYR4FeoEQb" target="_blank" class="btn buttonoverride">View Certificate</a>
-                            </div>
-                        
+                        </div>
+
+                        <hr class="cerhr">
+
+                        <div class="row cerow" style="padding-bottom:20px;">
+
                             <div class="col-lg-4" id="id-cer" style="text-align: left">
                                 <label class="cerlabel"><img src="assets/images/udemy-logo.jpg" class="rounded logo"> Udemy</label>
                                 <h5>Java MasterClass <span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">February 2018</label></span></h5>
                                 <label class="license">License UC-DFVKGT5Y</label><br>
                                 <a href="https://www.udemy.com/certificate/UC-DFVKGT5Y/" target="_blank" class="btn buttonoverride">View Certificate</a>
                             </div>
-                            
-                        </div>
 
-                         <hr class="cerhr">
-
-                        <div class="row" style="padding-bottom:20px;">
-
-                            <div class="col-lg-4" id="id-cer" style="text-align: left">
-                                <label class="cerlabel"><img src="assets/images/udemy-logo.jpg" class="rounded logo"> Udemy</label>
-                                <h5>Adobe Premiere Pro <span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">August 2017</label></span></h5>
-                                <label class="license">License UC-SX019ERK</label><br>
-                                <a href="https://www.udemy.com/certificate/UC-SX019ERK/" target="_blank" class="btn buttonoverride">View Certificate</a>
-                            </div>
-                        
                             <div class="col-lg-4" id="id-cer" style="text-align: left">
                                 <label class="cerlabel"><img src="assets/images/NIIT-logo.png" class="rounded logo"> NIIT</label>
                                 <h5>OOPS using C++ <span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">May 2016</label></span></h5>
                                 <label class="license">License 18AEZZZZZ7865</label><br>
                                 <a href="https://drive.google.com/open?id=1q0x-8ABfrmqBBTbmsXdAdWx8TiIVveNv" target="_blank" class="btn buttonoverride">View Certificate</a>
                             </div>
-                            
+
                             <div class="col-lg-4" id="id-cer" style="text-align: left">
                                 <label class="cerlabel"><img src="assets/images/NIIT-logo.png" class="rounded logo"> NIIT</label>
                                 <h5>Programming in C <span class="badge badge-warning"><label style="color: white; font-size: 17px; margin-bottom: 1px">May 2016</label></span></h5>
@@ -401,521 +379,514 @@
                             </div>
 
                         </div>
-
-                    </div>     
+                    </div>
+                </div>
             </div>
-         </div>
-        <div>
-            <div id="projects">
-                <h2>Core Projects</h2>
 
-                <!-- All the cards -->
+            <div>
+                <div id="projects">
+                    <h2>Core Projects</h2>
+                    <!-- All the cards -->
 
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">June 2019</a>
-                            </ul>
-                            <h6>CCC</h6>
+                    <div class="row container-fluid" style="padding-bottom: 20px">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">June 2019</a>
+                                </ul>
+                                <h6>CCC</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">A community driven project to help people code around the globe.</p>
+                                <a href="https://github.com/Gurubalan-GIT/CCC" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal11">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px" >A community driven project to help people code around the globe.</p>
-                            <a href="https://github.com/Gurubalan-GIT/MyGoogleMap-Graph" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal11">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
-                
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">December 2018</a>
-                            </ul>
-                            <h6>Text Editor</h6>
+
+                    <div class="row container-fluid" style="padding-bottom: 20px">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">December 2018</a>
+                                </ul>
+                                <h6>Text Editor</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">A Text editor made with JavaFX, with intellisense, Flesch index readability score, Markov text generator and many other features.</p>
+                                <a href="https://github.com/Gurubalan-GIT/Text-Editor" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal01">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px" >A Text editor made with JavaFX, with intellisense, Flesch index readability score, Markov text generator and many other features.</p>
-                            <a href="https://github.com/Gurubalan-GIT/MyGoogleMap-Graph" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal01">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
 
 
-                <div class="row container-fluid" style="padding-bottom: 20px;">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">October 2018</a>
-                            </ul>
-                            <h6>BMS Secure System</h6>
+                    <div class="row container-fluid" style="padding-bottom: 20px;">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">October 2018</a>
+                                </ul>
+                                <h6>BMS Secure System</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">This is a secure bank management web application, server side done with PHP and MySQL.</p>
+                                <a href="https://github.com/Gurubalan-GIT/BMS-Secure-System" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal1">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px">This is a secure bank management web application, server side done with PHP and MySQL.</p>
-                            <a href="https://github.com/Gurubalan-GIT/BMS-Secure-System" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal1">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
 
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">September 2018</a>
-                            </ul>
-                            <h6>My Google Maps</h6>
+                    <div class="row container-fluid" style="padding-bottom: 20px">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">September 2018</a>
+                                </ul>
+                                <h6>My Google Maps</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">This is my software approach to google maps using Google's APIs and implementing a few algorithms to find the shortest distance.</p>
+                                <a href="https://github.com/Gurubalan-GIT/UCSDGraphs" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal2">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px" >This is my software approach to google maps using Google's APIs and implementing a few algorithms to find the shortest distance.</p>
-                            <a href="https://github.com/Gurubalan-GIT/MyGoogleMap-Graph" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal2">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
 
-                
 
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">July 2018</a>
-                            </ul>
-                            <h6>Face detection Application</h6>
+
+                    <div class="row container-fluid" style="padding-bottom: 20px">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">July 2018</a>
+                                </ul>
+                                <h6>Face detection Application</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">A machine learning driven android application using custom models and Firebase's MLkit models as well to detect faces.</p>
+                                <a href="https://github.com/Gurubalan-GIT/MLFaceDetection" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal4">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px" >A machine learning driven android application using custom models and Firebase's MLkit models as well to detect faces.</p>
-                            <a href="https://github.com/Gurubalan-GIT/MLFaceDetection" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal4">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
 
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">June 2018</a>
-                            </ul>
-                            <h6>Text recognition application</h6>
+                    <div class="row container-fluid" style="padding-bottom: 20px">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">June 2018</a>
+                                </ul>
+                                <h6>Text recognition application</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">A machine learning driven android application using MLkit models to detect text from an image.</p>
+                                <a href="https://github.com/Gurubalan-GIT/MLTextRecognition" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal5">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px">A machine learning driven android application using MLkit models to detect text from an image.</p>
-                            <a href="https://github.com/Gurubalan-GIT/MLTextRecognition" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal5">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
 
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">May 2018</a>
-                            </ul>
-                            <h6>Bank account Simulation</h6>
+                    <div class="row container-fluid" style="padding-bottom: 20px">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">May 2018</a>
+                                </ul>
+                                <h6>Bank account Simulation</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">A secure bank management application (Software) with material UX|UI using Java, JavaFX and SQLite.</p>
+                                <a href="https://github.com/Gurubalan-GIT/BankAccountSimulation" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal7">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px">A secure bank management application (Software) with material UX|UI using Java, JavaFX and SQLite.</p>
-                            <a href="https://github.com/Gurubalan-GIT/BankAccountSimulation" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal7">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
 
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">February 2017</a>
-                            </ul>
-                            <h6>Location information</h6>
+                    <div class="row container-fluid" style="padding-bottom: 20px">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">February 2017</a>
+                                </ul>
+                                <h6>Location information</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">An android application with material UX|UI, central dashboard, compass, weather forecast and other features.</p>
+                                <a href="https://github.com/Gurubalan-GIT/BankAccountSimulation" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <a href="https://play.google.com/store/apps/details?id=a1.latitudeandlongitude" target="_blank" class="btn btn-danger"><i class="fa fa-play"></i>     Play store</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal8">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px">An android application with material UX|UI, central dashboard, compass, weather forecast and other features.</p>
-                            <a href="https://github.com/Gurubalan-GIT/BankAccountSimulation" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <a href="https://play.google.com/store/apps/details?id=a1.latitudeandlongitude" target="_blank" class="btn btn-danger"><i class="fa fa-play"></i>     Play store</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal8">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
 
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">January 2017</a>
-                            </ul>
-                            <h6>SMBS</h6>
+                    <div class="row container-fluid" style="padding-bottom: 20px">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">January 2017</a>
+                                </ul>
+                                <h6>SMBS</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">A intuitive Supermarket billing system done with C++.</p>
+                                <a href="https://github.com/Gurubalan-GIT/SMBS" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal9">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px">A intuitive Supermarket billing system done with C++.</p>
-                            <a href="https://github.com/Gurubalan-GIT/SMBS" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal9">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
 
-                <div class="row container-fluid" style="padding-bottom: 20px">
-                    <div class="col-sm-3"></div>
-                    <div class="card text-center col-sm-6 bg-dark">
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link text-info">November 2016</a>
-                            </ul>
-                            <h6>Race Game</h6>
+                    <div class="row container-fluid" style="padding-bottom: 20px">
+                        <div class="col-sm-3"></div>
+                        <div class="card text-center col-sm-6 bg-dark">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-info">November 2016</a>
+                                </ul>
+                                <h6>Race Game</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 18px">A fairly enjoyable UX|UI driven game with C++.</p>
+                                <a href="https://github.com/Gurubalan-GIT/Race-game" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal10">Read more</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text" style="font-size: 18px">A fairly enjoyable UX|UI driven game with C++.</p>
-                            <a href="https://github.com/Gurubalan-GIT/Race-game" target="_blank" class="btn btn-success"><i class="fab fa-github"></i>    Github</a>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal10">Read more</button>
-                        </div>
+                        <div class="col-sm-3"></div>
                     </div>
-                    <div class="col-sm-3"></div>
-                </div>
 
-                <!-- All the modals -->
-
-                <div class="modal fade text-dark" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal1CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal11LongTitle">CCC</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!-- All the modals -->
+                    <div class="modal fade text-dark" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal1CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal11LongTitle">CCC</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                A community-driven approach for learning competitive coding and helping people learn as well. Hosted on Github, 
-                                with over 200+ collaborators, breaking down the placement fear brick by brick!
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="modal fade text-dark" id="modal01" tabindex="-1" role="dialog" aria-labelledby="modal1CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal01LongTitle">Text editor</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                A Text editor made with JavaFX, includes Flesch index readability score, Word path distance between two words, Autocomplete, Markov text generator, importing .txt files from your system and many other features. 
-                                This is done implementing HashSets, LinkedLists and other classes/interfaces of collections and generics.
-                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    A community-driven approach for learning competitive coding and helping people learn as well. Hosted on Github, with over 200+ collaborators, breaking down the placement fear brick by brick!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal1LongTitle">BMS Secure System</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal01" tabindex="-1" role="dialog" aria-labelledby="modal1CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal01LongTitle">Text editor</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                This is a bank management system with material UX and UI, using PHP as server language and MySQL database. It includes peer to peer feedback submissions from users
-                                which the admin can look into through the admin panel.
-                                The admin can also post updates about anything which will appear on the general user page which does not require a log in.
-                                The information schema including all the tables can be accessed and  seen by the admin control panel. He can also make changes and view them in anyway through filters
-                                which execute aggregate functions in the backend side of MySQL. The passwords are all hashed with salt and using MD5 encryption for secure transactions.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    A Text editor made with JavaFX, includes Flesch index readability score, Word path distance between two words, Autocomplete, Markov text generator, importing .txt files from your system and many other features. This is done implementing HashSets, LinkedLists
+                                    and other classes/interfaces of collections and generics.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal2LongTitle">My Google Maps</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal1LongTitle">BMS Secure System</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                This is my software approach of google maps by using A*, BFS, Dijkstra's algorithms with Java, JavaFX (Front-end GUI), HTML, CSS and JS (For Google maps API).
-                                This is done implementing Graphs and also shows a complete visualization of how it is implemented. The shortest path (routes) after being shown can actually be visualized how each algorithm tracks and finds the possible routes one by one. Then all these can be seen in a complete Graph in itself hence analyzing the algorithm so that users can also understand.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    This is a bank management system with material UX and UI, using PHP as server language and MySQL database. It includes peer to peer feedback submissions from users which the admin can look into through the admin panel. The admin can also post updates
+                                    about anything which will appear on the general user page which does not require a log in. The information schema including all the tables can be accessed and seen by the admin control panel. He can also make changes
+                                    and view them in anyway through filters which execute aggregate functions in the backend side of MySQL. The passwords are all hashed with salt and using MD5 encryption for secure transactions.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal3LongTitle">SRM Transactions</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal2LongTitle">My Google Maps</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                This is a web application for bank management with a rich user interface and solid backend integration.
-                                (Server-side: Java). This is the same as BMS done in PHP, this being done with Java and servlets.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    This is my software approach of google maps by using A*, BFS, Dijkstra's algorithms with Java, JavaFX (Front-end GUI), HTML, CSS and JS (For Google maps API). This is done implementing Graphs and also shows a complete visualization of how it is implemented.
+                                    The shortest path (routes) after being shown can actually be visualized how each algorithm tracks and finds the possible routes one by one. Then all these can be seen in a complete Graph in itself hence analyzing the
+                                    algorithm so that users can also understand.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal4LongTitle">Face detection application</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal3LongTitle">SRM Transactions</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                This is an Android application for face detection using a custom model and Firebase's MLKit models as well. (The custom models are uploaded to MLKit instead of using pre-built ones completey.)
-                                It can detect faces through the front and rear cameras using machine learning driven algorithms which is being implemented by MLkit from firebase in the cloud.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    This is a web application for bank management with a rich user interface and solid backend integration. (Server-side: Java). This is the same as BMS done in PHP, this being done with Java and servlets.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal5LongTitle">Text recognition application</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal4LongTitle">Face detection application</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                This is an Android application which can detect text from an image through recognizing each character and storing the bitmap in a block.
-                                This also uses MLkit from firebase and thus using the default models from MLkit itself this application can recognize text from any image thereby.
-                                The image can either be taken from internal storage (With user permissions granted) or we can take a picture using the device's camera itself.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    This is an Android application for face detection using a custom model and Firebase's MLKit models as well. (The custom models are uploaded to MLKit instead of using pre-built ones completey.) It can detect faces through the front and rear cameras using
+                                    machine learning driven algorithms which is being implemented by MLkit from firebase in the cloud.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal6LongTitle">Registration portal</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal5LongTitle">Text recognition application</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                This is simple web application, yet complex on it's own. The server side is implemented by Java and for the database it is mapped by an Object relational
-                                mapping tool called Hibernate ORM, which maps on to MySQL database and hence gives us executable functions which maps on to MySQL queries. Thereby, called
-                                HQL. This results in higher efficiency and simple query execution.
-                                This project is done to showcase this working.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    This is an Android application which can detect text from an image through recognizing each character and storing the bitmap in a block. This also uses MLkit from firebase and thus using the default models from MLkit itself this application can recognize
+                                    text from any image thereby. The image can either be taken from internal storage (With user permissions granted) or we can take a picture using the device's camera itself.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal7LongTitle">Bank account simulation</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal6LongTitle">Registration portal</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                A software application developed using Java and JavaFX with SQLite database. Developed with robust design and material UI|UX.
-                                This has secure transactions, user profiles, material admin control panel, voice enabled instructions, and other features.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    This is simple web application, yet complex on it's own. The server side is implemented by Java and for the database it is mapped by an Object relational mapping tool called Hibernate ORM, which maps on to MySQL database and hence gives us executable
+                                    functions which maps on to MySQL queries. Thereby, called HQL. This results in higher efficiency and simple query execution. This project is done to showcase this working.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal8LongTitle">Location Info</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal7LongTitle">Bank account simulation</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                This is an Android application with Material UI/UX and various location-based services.
-                                <br>
-                                • Material UX and UI, highly responsive.
-                                <br>
-                                • Get location-based information updates wherever you go.
-                                <br>
-                                • Use the compass to navigate your way out.
-                                <br>
-                                • Type in custom coordinates and view them on map-services.
-                                <br>
-                                • Get to know weather updates in your location.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    A software application developed using Java and JavaFX with SQLite database. Developed with robust design and material UI|UX. This has secure transactions, user profiles, material admin control panel, voice enabled instructions, and other features.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal9LongTitle">SMBS</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal8LongTitle">Location Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                Supermarket billing system is a C++ executable software using some graphics libraries (Graphics.h) and so on. It includes fairly interactive UI|UX and accurate results.
-                                It has a simple layout and easy navigation for selecting what services you want. A simple C++ file for a simple task.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    This is an Android application with Material UI/UX and various location-based services.
+                                    <br> • Material UX and UI, highly responsive.
+                                    <br> • Get location-based information updates wherever you go.
+                                    <br> • Use the compass to navigate your way out.
+                                    <br> • Type in custom coordinates and view them on map-services.
+                                    <br> • Get to know weather updates in your location.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="modal fade text-dark" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10CenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal10LongTitle">Race game</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div class="modal fade text-dark" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal9LongTitle">SMBS</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
+                                </div>
+                                <div class="modal-body">
+                                    Supermarket billing system is a C++ executable software using some graphics libraries (Graphics.h) and so on. It includes fairly interactive UI|UX and accurate results. It has a simple layout and easy navigation for selecting what services you want. A
+                                    simple C++ file for a simple task.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                                A C++ racing game with enjoyable visual FX using basic graphics libraries. This is an infinite time loop based game where you have to dodge obstacles
-                                and keep moving. Given 3 lives, score counter, the game keeps on moving without any end. A simple executable C++ game.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                    <div class="modal fade text-dark" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10CenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal10LongTitle">Race game</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    A C++ racing game with enjoyable visual FX using basic graphics libraries. This is an infinite time loop based game where you have to dodge obstacles and keep moving. Given 3 lives, score counter, the game keeps on moving without any end. A simple executable
+                                    C++ game.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div>
-            <div id="contact">
-                <h2>Contact Me</h2>
-                <p>Want to collaborate on some projects? Hit me up!</p>
-                <a href="mailto:gurubalan.work@gmail.com?Subject=" target="_top" data-toggle="tooltip" data-placement="top" title="Mail me"><i class="fas fa-paper-plane"></i></a>
-                
+            <div>
+                <div id="contact">
+                    <h2>Contact Me</h2>
+                    <p>Want to collaborate on some projects? Hit me up!</p>
+                    <a href="mailto:gurubalan.work@gmail.com?Subject=" target="_top" data-toggle="tooltip" data-placement="top" title="Mail me"><i class="fas fa-paper-plane"></i></a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div id="footer" class="footer">
-    <div id="social-icons" class="container">
-        <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-3">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/gurubalan" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a></li>
+    <div id="footer" class="footer">
+        <div id="social-icons" class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-3">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/gurubalan" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
 
-                    <li> <a href="https://github.com/Gurubalan-GIT" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a></li>
+                        <li>
+                            <a href="https://github.com/Gurubalan-GIT" target="_blank">
+                                <i class="fab fa-github-alt"></i>
+                            </a>
+                        </li>
 
-                    <li><a href="https://www.facebook.com/Tenebrific" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a></li>
-                    <li><a href="https://www.instagram.com/gurubalan._/" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a></li>
-                </ul>
+                        <li>
+                            <a href="https://www.facebook.com/Tenebrific" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/gurubalan._/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4"></div>
             </div>
-            <div class="col-sm-4"></div>
-        </div>
             <div class="text-center">
                 <label style="color: whitesmoke;">&copy All rights reserved | Gurubalan Harikrishnan | 2019</label>
             </div>
+        </div>
     </div>
-</div>
-<!-- jQuery Full version -->
-<script src="assets/js/jQuery-3.3.1.js"></script>
-<!-- Font Awesome JS -->
-<script src="assets/js/fontawesome.all.js"></script>
-<!-- Popper.JS -->
-<script src="assets/js/popper.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- jQuery Custom Scroll -->
-<script src="assets/js/jQuery.mCustomScrollbar.concat.min.js"></script>
-<!-- Custom jQuery -->
-<script src="assets/js/jQuery.js"></script>
+    <!-- jQuery Full version -->
+    <script src="assets/js/jQuery-3.3.1.js"></script>
+    <!-- Font Awesome JS -->
+    <script src="assets/js/fontawesome.all.js"></script>
+    <!-- Popper.JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroll -->
+    <script src="assets/js/jQuery.mCustomScrollbar.concat.min.js"></script>
+    <!-- Custom jQuery -->
+    <script src="assets/js/jQuery.js"></script>
 </body>
+
 </html>

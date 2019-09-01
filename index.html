@@ -33,12 +33,6 @@
 
         gtag('config', 'UA-130484648-1');
     </script>
-    <!--Bootstrap tooltip toggle-->
-    <script>
-        $(function() {
-            $('[data-toggle="tooltip"]').tooltip();
-        })
-    </script>
 
     <!-- Importing Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Roboto" rel="stylesheet">
@@ -52,10 +46,26 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!--Bootstrap tooltip toggle-->
+    <script>
+            $(function() {
+                $('[data-toggle="tooltip"]').tooltip();
+            })
+    </script>
+
+    <!--CustomScrollBar-->
+    <script>
+            (function($){
+                $(window).on("load",function(){
+                    $(".content").mCustomScrollbar();
+                });
+            })(jQuery);
+    </script>
+
 </head>
 
 <body>
-
 
     <div class="main-wrapper">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" style="background: #3b5999;">
@@ -241,19 +251,19 @@
                             </div>
                             <div class=col-lg-8>
                                 <i class="fab fa-java" title="Java"></i>&nbsp
-                                <i class="fab fa-js-square"></i>&nbsp
-                                <i class="fab fa-css3-alt"></i>&nbsp
-                                <i class="fab fa-html5"></i>&nbsp
-                                <i class="icon-git icon"></i>&nbsp
-                                <i class="icon-spring icon"></i>
-                                <i class="icon-tomcat icon"></i>
-                                <i class="icon-apache icon"></i>
-                                <i class="icon-mongodb icon"></i>
-                                <i class="icon-mysql-alt icon"></i>
-                                <i class="icon-oracle icon"></i>
-                                <i class="icon-bootstrap icon"></i>&nbsp
-                                <i class="icon-c icon"></i>
-                                <i class="icon-cplusplus icon"></i>
+                                <i class="fab fa-js-square" title="JavaScript"></i>&nbsp
+                                <i class="fab fa-css3-alt" title="CSS"></i>&nbsp
+                                <i class="fab fa-html5" title="HTML5"></i>&nbsp
+                                <i class="icon-git icon" title="Git"></i>&nbsp
+                                <i class="icon-spring icon" title="Spring"></i>
+                                <i class="icon-tomcat icon" title="Apache Tomcat"></i>
+                                <i class="icon-apache icon" title="Apache"></i>
+                                <i class="icon-mongodb icon" title="MongoDB"></i>
+                                <i class="icon-mysql-alt icon" title="MySQL"></i>
+                                <i class="icon-oracle icon" title="Oracle PSQl"></i>
+                                <i class="icon-bootstrap icon" title="Bootstrap"></i>&nbsp
+                                <i class="icon-c icon" title="C"></i>
+                                <i class="icon-cplusplus icon" title="C++"></i>
                             </div>
                             <div class=col-lg-2>
                             </div>
@@ -284,12 +294,12 @@
                             <div class=col-lg-2>
                             </div>
                             <div class=col-lg-8>
-                                <i class="icon-jquery icon"></i>&nbsp
-                                <i class="icon-nodejs icon"></i>
-                                <i class="icon-php-alt icon"></i>
-                                <i class="fab fa-android icon"></i>
-                                <i class="fab fa-bitcoin icon"></i>
-                                <i class="icon-sass icon"></i>
+                                <i class="icon-jquery icon" title="Jquery"></i>&nbsp
+                                <i class="icon-nodejs icon" title="NodeJS"></i>
+                                <i class="icon-php-alt icon" title="PHP"></i>
+                                <i class="fab fa-android icon" title="Android"></i>
+                                <i class="fab fa-bitcoin icon" title="Blockchain"></i>
+                                <i class="icon-sass icon" title="SASS"></i>
                             </div>
                             <div class=col-lg-2>
                             </div>
@@ -377,8 +387,12 @@
                                 <label class="license">License 18AEZZZZZ7864</label><br>
                                 <a href="https://drive.google.com/open?id=1U91okQ_cF1_McvyL-Q5bj1USODqE-18H" target="_blank" class="btn buttonoverride">View Certificate</a>
                             </div>
-
                         </div>
+
+                        <div class="text-center">
+                            <label style="color: whitesmoke;">&copy Logos are reserved by their respective brands</label>
+                        </div>
+
                     </div>
                 </div>
             </div>
